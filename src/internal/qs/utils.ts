@@ -5,7 +5,7 @@ const has = Object.prototype.hasOwnProperty;
 const is_array = Array.isArray;
 
 const hex_table = (() => {
-  const array: string[] = [];;
+  const array: string[] = [];
   for (let i = 0; i < 256; ++i) {
     array.push('%' + ((i < 16 ? '0' : '') + i.toString(16)).toUpperCase());
   }
